@@ -47,7 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
              affirmLogoType:(AffirmLogoType)affirmLogoType
                 affirmColor:(AffirmColorType)affirmColor
                 maxFontSize:(CGFloat)maxFontSize
-                   callback:(void(^)(BOOL alaEnabled, NSError *error))callback;
+                   callback:(void(^)(BOOL alaEnabled, NSError * _Nullable error))callback;
 
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder NS_UNAVAILABLE;
